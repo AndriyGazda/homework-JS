@@ -289,9 +289,9 @@
 // alert(name + '\n' + age + '\n' + hobby)
 
 //9999999999999999999999999999999999999999999
-let str1 = prompt('Кто ')
+let str1 = prompt('Хто ')
 let str2 = prompt('ти ')
-let str3 = prompt('такой ?')
+let str3 = prompt('такий ?')
 let concatenation = str1 + str2 + str3;
 
 
