@@ -174,13 +174,13 @@
 //
 // console.log(Math.pow(num1, num2));
 
-// let a = 100;
-// let b = '100';
-// let c = true;
-//
-// console.log(typeof a);
-// console.log(typeof b);
-// console.log(typeof c);
+let a = 100;
+let b = '100';
+let c = true;
+
+console.log(typeof a);
+console.log(typeof b);
+console.log(typeof c);
 
 
 // console.log(5 < 6);
