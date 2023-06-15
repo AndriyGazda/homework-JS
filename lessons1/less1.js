@@ -354,23 +354,38 @@
 //
 
 
-const traffic_light = prompt('Колір світлофора --- ');
-const light = ["green", "yellow", "red"]
+// const traffic_light = prompt('Колір світлофора --- ');
+// const light = ["green", "yellow", "red"]
+//
+// if (traffic_light === light[0]) {
+//     alert("LETS GO")
+// } else if (traffic_light === light[1]) {
+//     alert("PLEAS WAIT");
+// } else if (traffic_light === light[2]) {
+//     alert("!!STOP!!")
+// } else {
+//     confirm("РОБИ ЩО ХОЧ!!!")
+// }
 
-if (traffic_light === light[0]) {
+
+const traffic_light = prompt('Колір світлофора --- ');
+const isRoadClear = prompt('На дорозі є машини??')
+
+if (traffic_light === "green" && isRoadClear ===  'no' ){
     alert("LETS GO")
-} else if (traffic_light === light[1]) {
-    alert("PLEAS WAIT");
-} else if (traffic_light === light[2]) {
-    alert("!!STOP!!")
+} else if (traffic_light === "green" && isRoadClear === 'yes' ){
+    alert("Чекай поки проїдуть порушники")
+} else if (traffic_light === "yellow" && isRoadClear === 'yes' ){
+    alert("PLEAS WAIT")
+} else if (traffic_light === "yellow" && isRoadClear === 'no' ){
+    alert("Всерівно чекай")
+} else if (traffic_light === "red" && isRoadClear === 'no' ){
+    alert("Всерівно стій")
+} else if (traffic_light === "red" && isRoadClear === 'yes' ){
+    alert("Стій і чекай")
 } else {
     alert("РОБИ ЩО ХОЧ!!!")
 }
-
-
-
-
-
 
 
 
