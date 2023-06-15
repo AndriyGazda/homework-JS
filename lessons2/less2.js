@@ -355,38 +355,6 @@
 
 
 
-///////ГАВНОООО.
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-// for (let i = 2; i < arr.length; i = i + 3) {
-//     console.log(arr[i])
-// }
-
-
-
-
-// let arr = [];
-// for (let i = 1; i < 20; i++) {
-//     if (i % 3 === 0 ) {
-//         if (i % 2 !== 0){
-//             let random = Math.floor(Math.random() * 50)
-//             arr.push(random)
-//         }
-//     }
-// }
-// console.log(arr)
-
-
-// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-// for (let i = -1; i < 20; i++) {
-//     if (i % 3 === 0 ) {
-//         if (i % 2 !== 0){
-//             console.log(arr[i])
-//         }
-//     }
-//
-// }
-
-
 //Додатково
 let arr = [ 'a', 'b', 'c'];
 let result = '';
